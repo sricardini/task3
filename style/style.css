@@ -1,0 +1,54 @@
+.nombre {
+    font-size: 250%;
+    margin: 100px;
+    width: auto;
+    height: 200px;
+    background-image: url("/assets/design1_image1.jpg");
+    background-attachment: absolute;
+
+}
+
+ul {
+    list-style-type: none;
+    font-size: 150%;
+    margin: 100px;
+    padding: 50px;
+    width: 25%;
+    height: 150%; 
+    z-index: 1;
+    position: absolute; 
+}
+li a {
+    display: block;
+}
+.active {
+    color: black;
+  }
+
+#logo {
+    float: right;
+    background-color: white;
+    margin-right: 150px;
+    margin-top: -150px;
+    width: 100px;
+    height: 100px;
+    z-index: 1;
+}
+.texto {  
+    position: absolute;
+    margin: auto;
+    margin-left: 25%;
+    width: 50%;
+    padding: 10px;
+    text-align: justify;
+
+}
+.boxpagename  {
+    text-align: center;
+    background-color: black;
+    color: white;
+    margin: 100px;
+    margin-top: -100px;
+    width: auto;
+    z-index: -1;
+}
