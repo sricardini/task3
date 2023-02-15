@@ -1,54 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body {
+    width: 100vw;
+    margin: 1rem 3rem;
+}
+
 .nombre {
     font-size: 250%;
-    margin: 100px;
+}
+
+nav {
+    position: relative;
+    width: 90vw;
+    height: auto;
+    display: inline;
+    top: 2rem;
+
+}
+
+nav > a {
+    position: relative;
+    display: inline-block;
     width: auto;
-    height: 200px;
-    background-image: url("/assets/design1_image1.jpg");
-    background-attachment: absolute;
+    height: 100%;
+    left: 70%;
+    margin: .5rem;
+    padding: .5rem;
+    color: white;
+    background-color: blue;
+    text-align: center;
+    text-decoration: none;
+    border-width: 1px;
+    border-color: black;
+    border-style: solid;
 
 }
 
-ul {
-    list-style-type: none;
-    font-size: 150%;
-    margin: 100px;
-    padding: 50px;
-    width: 25%;
-    height: 150%; 
-    z-index: 1;
-    position: absolute; 
+a[href="#"] {
+    background-color: greenyellow;
 }
-li a {
-    display: block;
-}
-.active {
-    color: black;
-  }
 
-#logo {
-    float: right;
-    background-color: white;
-    margin-right: 150px;
-    margin-top: -150px;
-    width: 100px;
-    height: 100px;
-    z-index: 1;
+
+.boxpagename {
+    text-align: center;
+    color:white;
+    background-color: black; 
+    padding: 1px;
+    width: 100%;
+    font-size: 1.2rem;
+    top: 0;
+    margin-left: -1rem;
 }
-.texto {  
+
+img {
+    width: 100%;
+    height: 50vh;
+    margin-left: -1rem;
+    top: -1rem;
+    object-fit: cover;
+
+}
+
+#logo{
     position: absolute;
+    width: 100%;
+    height: 200px;
+    object-fit: contain;
+    margin-top: 1rem;
+    top: 80%;
+    display: block;
+    width: 15%;
+    background-color: white;
+}
+
+
+.texto {  
     margin: auto;
-    margin-left: 25%;
-    width: 50%;
+    margin-left: 20%;
+    height: -1rem;
+    width: 50vw;
     padding: 10px;
+    padding-bottom: 5rem ;
     text-align: justify;
 
 }
-.boxpagename  {
-    text-align: center;
-    background-color: black;
-    color: white;
-    margin: 100px;
-    margin-top: -100px;
-    width: auto;
-    z-index: -1;
+
+h3 {
+    margin-top: 2rem;
+}
+p {
+    margin-top: 2rem;
 }
